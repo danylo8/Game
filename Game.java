@@ -75,6 +75,12 @@ public class Game
             play();
         }
         int score= getScore();
+
+        if (score>max) max=score;
+        num--;
+        return max;
+
     }
+
 // There may be instance variables, constructors, and methods that are not shown.
 }

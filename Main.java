@@ -10,6 +10,10 @@ public class Main {
         one.getLevel(3).setPoints(500);
         one.makeBonus();
 
+
         System.out.println(one.getScore());
+
+        Game five=new Game();
+        System.out.println(five.playManyTimes(4));
     }
 }
